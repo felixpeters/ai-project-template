@@ -1,4 +1,4 @@
-# ai-project-template
+# AI Project Template
 
 [![Continuous integration](https://github.com/felixpeters/ai-project-template/actions/workflows/ci.yml/badge.svg)](https://github.com/felixpeters/ai-project-template/actions/workflows/ci.yml)
 
