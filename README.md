@@ -39,3 +39,7 @@ The repository is structured as follows:
 - `requirements-dev.txt`: Contains the development dependencies of the project
 - `setup.py`: Contains instructions for building the project package
 - `pyproject.toml`: Contains configuration for Python development standards
+
+## Roadmap
+
+- [ ] Add template notebooks for MVP pipeline
