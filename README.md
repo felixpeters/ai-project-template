@@ -43,3 +43,4 @@ The repository is structured as follows:
 ## Roadmap
 
 - [ ] Add template notebooks for MVP pipeline
+- [ ] Add instructions for using this template
