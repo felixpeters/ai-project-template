@@ -56,4 +56,4 @@ The repository is structured as follows:
 
 ## Roadmap
 
-- [ ] Add template notebooks for MVP pipeline
+- [ ] Add common utility functions (load configuration, logging, etc.)
