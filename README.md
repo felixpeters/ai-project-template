@@ -1,6 +1,6 @@
 # AI Project Template
 
-[![Continuous integration](https://github.com/felixpeters/ai-project-template/actions/workflows/ci.yml/badge.svg)](https://github.com/felixpeters/ai-project-template/actions/workflows/ci.yml)
+[![Build](https://github.com/felixpeters/ai-project-template/actions/workflows/ci.yml/badge.svg)](https://github.com/felixpeters/ai-project-template/actions/workflows/ci.yml)
 
 Template for developing AI projects according to proven principles and best practices.
 
@@ -39,6 +39,12 @@ The repository is structured as follows:
 - `requirements-dev.txt`: Contains the development dependencies of the project
 - `setup.py`: Contains instructions for building the project package
 - `pyproject.toml`: Contains configuration for Python development standards
+
+### Workflows
+
+| ID   | Description                                                    | Trigger               |
+| ---- | -------------------------------------------------------------- | --------------------- |
+| `ci` | Installs dependencies, builds the packagage and runs all tests | Push to `main` branch |
 
 ## Roadmap
 
