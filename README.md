@@ -4,6 +4,14 @@
 
 Template for developing AI projects according to proven principles and best practices.
 
+## Features
+
+- Proven folder structure for AI projects
+- Template notebooks for the minimum viable product (MVP) of an AI project
+- Continuous integration with GitHub Actions
+- Pre-commit hooks for code quality, style, and security (black, ruff, codespell, bandit)
+- Testing with pytest, including code coverage
+
 ## Setup
 
 ### Prerequisites
@@ -13,7 +21,7 @@ Template for developing AI projects according to proven principles and best prac
 
 ### Installation process
 
-- Clone the repository
+- Create a new repository from this template using `gh repo create <repo-name> --template felixpeters/ai-project-template`
 - Create a Python environment with `python -m venv .venv`
 - Activate the environment with `source .venv/bin/activate`
 - Install the development dependencies with `pip install -r requirements-dev.txt`
@@ -28,12 +36,12 @@ Template for developing AI projects according to proven principles and best prac
 
 The repository is structured as follows:
 
+- `.github/`: Contains GitHub Actions workflows for continuous integration.
 - `data/`: Contains all data used in the project
 - `docs/`: Contains documentation for the project
 - `src/`: Contains the source code of the project
 - `tests/`: Contains the tests for the project
 - `mvp/`: Contains the minimum viable product of the project, i.e., an end-to-end pipeline for running experiments
-- `.github/`: Contains GitHub Actions workflows for continuous integration.
 - `Makefile`: Contains commands for building, testing, and running the project
 - `requirements.txt`: Contains the dependencies of the project
 - `requirements-dev.txt`: Contains the development dependencies of the project
@@ -49,4 +57,3 @@ The repository is structured as follows:
 ## Roadmap
 
 - [ ] Add template notebooks for MVP pipeline
-- [ ] Add instructions for using this template
