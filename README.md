@@ -57,3 +57,4 @@ The repository is structured as follows:
 ## Roadmap
 
 - [ ] Add common utility functions (load configuration, logging, etc.)
+- [ ] Add Dockerfile for VS Code Dev Container as alternative dev environment
