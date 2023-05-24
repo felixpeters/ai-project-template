@@ -2,7 +2,7 @@
 
 [![Build](https://github.com/felixpeters/ai-project-template/actions/workflows/ci.yml/badge.svg)](https://github.com/felixpeters/ai-project-template/actions/workflows/ci.yml)
 
-Template for developing AI projects according to proven principles and best practices.
+Template for developing AI projects according to [proven principles](https://fullstackai.substack.com/p/four-pillars-ai-development) and best practices.
 
 ## Features
 
